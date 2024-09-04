@@ -8,10 +8,10 @@ Die Spannungsregler-Schaltungen können in Zukunft noch auf eine Leiterplatte ge
 
 Bei dem Projekt gibt es ein paar Herausforderungen und Weiterentwicklungsmöglichkeiten:
 - Die Leistung, die die Solarzellen liefern, reicht noch nicht ganz aus. Bei Tageslicht und Parallelschaltung einiger Zellen reicht die Ladeleistung gerade so, um ein älteres Samsung-Tablet langsam zu laden. Für mein iPhone XS reicht es noch nicht und der Step-Down-Converter hat Probleme und liefert ausgangsseitig eine zu niedrige Spannung. Deshalb müssen noch mehr Solarzellen eingebaut werden. Es könnten z.B. Stacks von Solarzellen in Reihe geschalten werden und mit anderen Stacks ungefähr gleicher Spannung ([Ausgleichströme!](https://de.wikipedia.org/wiki/Spannungsquelle#Parallelschaltung)) parallel geschalten werden, um einen höheren Ladestrom bei gleichzeitig stabil über 5V am Eingang zu erreichen.
-- Man könnte den Lader noch intelligenter gestalten: Ein Arduino bzw. Microcontroller IC könnte die Spannungen überwachen und das Laden abschalten, wenn die Solarpanels verschattet sind
+- Man könnte den Lader noch intelligenter gestalten: Ein Arduino bzw. Microcontroller IC könnte die Spannungen überwachen und das Laden abschalten, wenn die Solarpanels verschattet sind.
 - Man könnte einen Lithium-Ionen-Akku oder ähnliches als Pufferspeicher dazwischenschalten. Dieser wird von der Schaltung geladen und liefert selbst immer eine stabile Spannung bei ausreichend Ladeleistung. Dafür wäre wahrscheinlich ein entsprechender Lade-IC zusätzlich nötig, der wiederum irgendeine Art von Stromversorgung bräuchte.
 
-## Bilder:
+## Bilder
 ![](IMG_9285.JPEG)
 ![](IMG_9286.JPG)
 ![](IMG_9290.JPG)
