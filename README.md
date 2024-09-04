@@ -12,7 +12,7 @@ Bei dem Projekt gibt es ein paar Herausforderungen und Weiterentwicklungsmöglic
 
 
 ## Bilder:
-![](IMG_9285.JPG)
+![](IMG_9285.JPEG)
 ![](IMG_9286.JPG)
 ![](IMG_9290.JPG)
 ![](IMG_9291.JPG)
