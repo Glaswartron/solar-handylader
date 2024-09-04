@@ -1,7 +1,7 @@
 # Solar-Handylader
 Solar-Handylader mit USB-Anschluss in 2 Versionen, eine mit linearem Spannungsregler und eine mit Schaltregler (Step-Down-Converter).  
 Ziel ist es, mit vielen eingangsseitig verschalteten Solarzellen eine konstante Ausgangsspannung von 5V bei ausreichendem Strom zum Laden eines Handys oder Tablets über ein USB-Kabel bereitzustellen.  
-Als linearer Spannungsregler wird ein 7805CT verwendet und als Schaltregler / Step-Down-Converter ein LM2574N-5. Die Kondensatoren, Induktivitäten und (Zener-)Dioden wurden gemäß den Datasheets der ICs ausgewählt und dimensioniert.
+Als linearer Spannungsregler wird ein 7805CT verwendet und als Schaltregler / Step-Down-Converter ein LM2574N-5. Die Kondensatoren (Elektrolyt- und Keramik-), Induktivitäten und (Zener-)Dioden wurden gemäß den Datasheets der ICs ausgewählt und dimensioniert.
 
 Mit diesem Projekt will ich üben, ICs zu verwenden und mit passiver Elektronik auszustatten, mit Messgeräten umzugehen und USB zur Spannungsversorgung/Energieübertragung einzusetzen. Die Schaltung an sich ist eine tolle Grundlage, um in Zukunft vielleicht ein Projekt drum herum zu bauen: z.B. einen Solarlader, der der Sonne folgt oder ein Ladegerät für Lithium-Ionen-Akkus. Die Spannungsregler-Schaltungen an sich können natürlich in mehr Projekten eingesetzt werden, bei denen stabile 5V bereitgestellt werden müssen, z.B. aus einer 9V-Batterie, ...  
 Die Spannungsregler-Schaltungen können in Zukunft noch auf eine Leiterplatte gelötet oder als PCBs erstellt werden. Inspiration: [5V Regulator design tutorial - How it works, how to design PCB altium](https://youtu.be/d-j0onzzuNQ?si=P9ErR5rJm8of-E-f)
